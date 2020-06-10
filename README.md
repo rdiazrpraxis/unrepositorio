@@ -4,3 +4,7 @@ https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsyste
 http://dirr@10.100.236.102/configuration-management/automation.git
 
 1qaz2wsx
+
+
+echo "$TABLAS_EN_PROCESO" |while read LINEA_TABLAS; 
+		do
