@@ -9,4 +9,15 @@ http://dirr@10.100.236.102/configuration-management/automation.git
 echo "$TABLAS_EN_PROCESO" |while read LINEA_TABLAS; 
 		do
 		
-http://10.100.224.38:19080/sco-valores/index.jsf		
+http://10.100.224.38:19080/sco-valores/index.jsf	
+
+
+
+--------------------
+
+rutainicial=`dirname $0`
+cd $rutainicial
+cd ..
+rutainicial=`pwd`
+. common/setenv.sh
+
