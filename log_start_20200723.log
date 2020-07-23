@@ -1,0 +1,18 @@
+############################################################
+############INICIANDO LLAMADOS A SCRIPT START###############
+############################################################
+############################################################
+#####################INICIANDO AMH#####################
+############################################################
+Se ejecuta comando: /soft/app/amh/bin/startAMH.sh
++ EAP_HOME=/soft/app/amh/jboss-eap-6.4
++ cd /soft/app/amh/jboss-eap-6.4/bin
++ PID=28342
++ echo 28342
+28342
++ nohup ./standalone.sh -Duser.country=MX -Duser.language=es -Duser.timezone=Mexico/General -Djboss.bind.address.management=1.0.0.0 -Djboss.bind.address=0.0.0.0 -Djboss.socket.binding.port-offset=1000 -Djboss.default.multicast.address=230.0.0.5 -c standalone.xml
+0
+Se ejecutó con éxito el script - Thu Jul 23 11:48:49 CDT 2020
+
+
+Se ejecutó con éxito - Thu Jul 23 11:48:49 CDT 2020
